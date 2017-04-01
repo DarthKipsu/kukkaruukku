@@ -2,7 +2,7 @@ int MOISTURE_SENSOR = A0;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(A0, INPUT);
+  pinMode(MOISTURE_SENSOR, INPUT);
 }
 
 void loop() {
